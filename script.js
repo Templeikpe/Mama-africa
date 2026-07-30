@@ -502,7 +502,7 @@ function getInitialLang(){
   }catch(e){}
   const stored = safeGetStoredLang();
   if(stored && AVAILABLE_LANGS.includes(stored)) return stored;
-  return 'fr';
+  return 'en';
 }
 
 // Réécrit tous les liens internes (menu, footer, boutons…) pour qu'ils transportent
